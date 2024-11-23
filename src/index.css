@@ -11,12 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* common.css */
+
 :root {
-  --red: #e62b1e; /* TEDx red */
-  --black: #111111; /* Deep black */
-  --white: #ffffff; /* White */
-  --gray: #f8f8f8; /* Light background gray */
+  --red: #e62b1e;
+  --black: #111111; 
+  --white: #ffffff; 
+  --gray: #f8f8f8; 
   --font-primary: 'Helvetica Neue', Arial, sans-serif;
 }
 
