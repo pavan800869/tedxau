@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/about.css";
 import "../styles/aboutSection.css";
+import AboutsecImg from "../images/aboutSec.png";
 
 const AboutSection = () => {
   const stats = [
@@ -39,11 +40,11 @@ const AboutSection = () => {
   return (
     <section className="about-section">
       <div className="about-content">
-        <div className="charminar-image">
+        <div className="about-image">
           <img
-            src="path-to-your-image/charminar.png"
-            alt="Charminar"
-            className="charminar"
+            src={AboutsecImg}
+            alt="About Img"
+            className="aboutImg"
           />
         </div>
         <h1 className="impact-title">
