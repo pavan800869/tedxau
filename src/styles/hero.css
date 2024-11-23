@@ -1,0 +1,50 @@
+.hero-section {
+    position: relative;
+    background-color: black;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+    height: 800px;
+    width: 1470px;
+  }
+  
+  .hero-section .bg-cover {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+  }
+  
+  .hero-section img {
+    width: 1470px;
+    height: 800px;
+  }
+  
+  .hero-section p {
+    position: relative;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 300px;
+  }
+
+  .hero-section button {
+    position: relative;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    top: 300px;
+  }
+  .hero-section button:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.05);
+    
+  }
+
+  

@@ -1,0 +1,62 @@
+.about-section {
+    position: relative;
+    background-color: #111;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .charminar-image {
+    margin-bottom: 20px;
+  }
+  
+  .charminar {
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .impact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .highlight {
+    color: #e11d48;
+  }
+  
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #bbb;
+  }
+  
+  .stat-item:hover .stat-value {
+    transform: scale(1.1);
+  }
+  
